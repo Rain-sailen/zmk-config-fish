@@ -190,7 +190,6 @@
                 = <&macro_tap &kp N &kp N>
                 ;
             };
-   　　　 };
 　　};
 
     conditional_layers {
