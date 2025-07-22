@@ -296,7 +296,7 @@
             bindings = <
                         &macro_x_y_u      &macro_x_u        &kp JP_TILDE    &mt LSHIFT JP_EXCL        &mt LALT JP_LPAR    &kp Q       &macro_n_n    &kp J      
 &kp LEFT    &macro_x_e        &macro_x_i        &macro_x_a        &macro_x_o            &mt LCTRL DOT             &mt LGUI JP_RPAR    &kp G       &kp D   &kp Z     &kp L    &kp RIGHT
-            &sk LCTRL   &sk LSHIFT  &macro_x_y_a      &macro_x_y_o                                           　　　　　　  &kp B       &kp X   &kp C     &kp V    
+            &kp HOME   &kp END  &macro_x_y_a      &macro_x_y_o                                           　　　　　　  &kp B       &kp X   &kp C     &kp V    
                                                 &none           &none                 　  &tog 5              &tog 4 
             >;
         };
@@ -305,7 +305,7 @@
             bindings = <
                         &macro_x_y_u      &macro_x_u        &kp JP_TILDE    &mt LSHIFT JP_EXCL        &mt LALT JP_LPAR    &kp Q       &macro_n_n    &kp J      
 &kp LEFT    &macro_x_e        &macro_x_i        &macro_x_a        &macro_x_o            &mt LCTRL DOT             &mt LGUI JP_RPAR    &kp G       &kp D   &kp Z     &kp L    &kp RIGHT
-            &sk LCTRL   &sk LSHIFT  &macro_x_y_a      &macro_x_y_o                                           　　　　　　  &kp B       &kp X   &kp C     &kp V    
+            &kp HOME   &kp END  &macro_x_y_a      &macro_x_y_o                                           　　　　　　  &kp B       &kp X   &kp C     &kp V    
                                                 &tog 4          &tog 5                    &none               &none 
             >;
         };
@@ -337,7 +337,7 @@
             >;
         };
 
-        layer_qwerty {
+        layer_qwerty2 {
             bindings = <
                  &none    &none    &none    &none              &none     &none    &none   &none      
 &none   &none    &none    &none    &none    &none              &none     &none    &none   &none   &none   &tog 5 
