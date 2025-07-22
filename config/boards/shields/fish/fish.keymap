@@ -285,27 +285,27 @@
 
         layer_base {
             bindings = <
-                     &y_u      &kp U       &kp MINUS       &mt LSHIFT JP_QMARK        &mt LALT JP_LBKT     &kp W       &kp N       &kp M       
+                     &macro_y_u      &kp U       &kp MINUS       &mt LSHIFT JP_QMARK        &mt LALT JP_LBKT     &kp W       &kp N       &kp M       
 &kp LEFT    &kp E    &kp I     &kp A       &kp O           &mt LCTRL COMMA            &mt LGUI JP_RBKT     &kp K       &kp T       &kp S       &kp R       &kp RIGHT       
-            &y_e     &n_n      &y_a        &y_o                                                            &kp H       &kp Y       &kp P       &kp F       
+            &macro_y_e     &macro_n_n      &macro_y_a        &macro_y_o                                                            &kp H       &kp Y       &kp P       &kp F       
                                            &lt 1 BSPC      &lt 3 RET                  &lt 3 TAB            &lt 2 SPACE 
             >;
         };
 
         layer_voiced1 {
             bindings = <
-                        &x_y_u      &x_u        &kp JP_TILDE    &mt LSHIFT JP_EXCL        &mt LALT JP_LPAR    &kp Q       &n_n    &kp J      
-&kp LEFT    &x_e        &x_i        &x_a        &x_o            &mt LCTRL DOT             &mt LGUI JP_RPAR    &kp G       &kp D   &kp Z     &kp L    &kp RIGHT
-            &sk LCTRL   &sk LSHIFT  &x_y_a      &x_y_o                                           　　　　　　  &kp B       &kp X   &kp C     &kp V    
+                        &macro_x_y_u      &macro_x_u        &kp JP_TILDE    &mt LSHIFT JP_EXCL        &mt LALT JP_LPAR    &kp Q       &macro_n_n    &kp J      
+&kp LEFT    &macro_x_e        &macro_x_i        &macro_x_a        &macro_x_o            &mt LCTRL DOT             &mt LGUI JP_RPAR    &kp G       &kp D   &kp Z     &kp L    &kp RIGHT
+            &sk LCTRL   &sk LSHIFT  &macro_x_y_a      &macro_x_y_o                                           　　　　　　  &kp B       &kp X   &kp C     &kp V    
                                                 &none           &none                 　  &tog 5              &tog 4 
             >;
         };
 
         layer_voiced2 {
             bindings = <
-                        &x_y_u      &x_u        &kp JP_TILDE    &mt LSHIFT JP_EXCL        &mt LALT JP_LPAR    &kp Q       &n_n    &kp J      
-&kp LEFT    &x_e        &x_i        &x_a        &x_o            &mt LCTRL DOT             &mt LGUI JP_RPAR    &kp G       &kp D   &kp Z     &kp L    &kp RIGHT
-            &sk LCTRL   &sk LSHIFT  &x_y_a      &x_y_o                                           　　　　　　  &kp B       &kp X   &kp C     &kp V    
+                        &macro_x_y_u      &macro_x_u        &kp JP_TILDE    &mt LSHIFT JP_EXCL        &mt LALT JP_LPAR    &kp Q       &macro_n_n    &kp J      
+&kp LEFT    &macro_x_e        &macro_x_i        &macro_x_a        &macro_x_o            &mt LCTRL DOT             &mt LGUI JP_RPAR    &kp G       &kp D   &kp Z     &kp L    &kp RIGHT
+            &sk LCTRL   &sk LSHIFT  &macro_x_y_a      &macro_x_y_o                                           　　　　　　  &kp B       &kp X   &kp C     &kp V    
                                                 &tog 4          &tog 5                    &none               &none 
             >;
         };
