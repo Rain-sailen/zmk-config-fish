@@ -190,7 +190,7 @@
                 = <&macro_tap &kp N &kp N>
                 ;
             };
-　　};
+　　　   };
 
     conditional_layers {
     };
@@ -273,6 +273,7 @@
             bindings = <&sk LGUI>;
         };
     };
+};
     
 
     // キーに入力を割り当てる
