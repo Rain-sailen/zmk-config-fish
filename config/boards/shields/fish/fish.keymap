@@ -233,22 +233,22 @@
             bindings = <&studio_unlock>;
         };
 
-        JP_ZKHK {
+        jp_zkhk {
             key-positions = <29 30>;
             bindings = <&kp JP_ZKHK>;
         };
 
-        JP_MHEN {
+        jp_mhen {
             key-positions = <28 31>;
             bindings = <&kp JP_MHEN>;
         };
 
-        JP_HENK1 {
+        jp_henk1 {
             key-positions = <28 30>;
             bindings = <&kp JP_HENK>;
         };
 
-        JP_HENK2 {
+        jp_henk2 {
             key-positions = <29 31>;
             bindings = <&kp JP_HENK>;
         };
