@@ -40,46 +40,6 @@
 };
 
 
-#define JP_ZKHK  GRAVE        // Zenkaku ↔ Hankaku ↔ Kanji (半角 ↔ 全角 ↔ 漢字)
-#define JP_MINUS MINUS        // -
-#define JP_CARET EQUAL        // ^
-#define JP_YEN   INT3         // ¥
-#define JP_AT    LBKT         // @
-#define JP_LBKT  RBKT         // [
-#define JP_EISU  CAPS         // Eisū (英数)
-#define JP_SEMI  SEMI         // ;
-#define JP_COLON SQT          // :
-#define JP_RBKT  NUHS         // ]
-#define JP_COMMA COMMA        // ,
-#define JP_DOT   DOT          // .
-#define JP_SLASH SLASH        // /
-#define JP_BSLH  INT1         // (backslash)
-#define JP_MHEN  INT5         // Muhenkan (無変換)
-#define JP_HENK  INT4         // Henkan (変換)
-#define JP_KANA  INT2         // Katakana ↔ Hiragana ↔ Rōmaji (カタカナ ↔ ひらがな ↔ ローマ字)
-#define JP_EXCL  LS(N1)       // !
-#define JP_DQT   LS(N2)       // "
-#define JP_HASH  LS(N3)       // #
-#define JP_DLLR  LS(N4)       // $
-#define JP_PRCNT LS(N5)       // %
-#define JP_AMPS  LS(N6)       // &
-#define JP_SQT   LS(N7)       // '
-#define JP_LPAR  LS(N8)       // (
-#define JP_RPAR  LS(N9)       // )
-#define JP_EQUAL LS(JP_MINUS) // =
-#define JP_TILDE LS(JP_CARET) // ~
-#define JP_PIPE  LS(JP_YEN)   // |
-#define JP_GRAVE LS(JP_AT)    // `
-#define JP_LBRC  LS(JP_LBKT)  // {
-#define JP_CAPS  LS(JP_EISU)  // Caps Lock
-#define JP_PLUS  LS(JP_SEMI)  // +
-#define JP_ASTRK LS(JP_COLON) // *
-#define JP_RBRC  LS(JP_RBKT)  // }
-#define JP_LT    LS(JP_COMMA) // <
-#define JP_RT    LS(JP_DOT)   // >
-#define JP_QMARK LS(JP_SLASH) // ?
-#define JP_UNDER LS(JP_BSLH)  // _
-
 / {
     // 独自の入力を定義できる（上級者向け）
 
@@ -235,22 +195,22 @@
 
         jp_zkhk {
             key-positions = <29 30>;
-            bindings = <&kp JP_ZKHK>;
+            bindings = <&kp GRAVE>;
         };
 
         jp_mhen {
             key-positions = <28 31>;
-            bindings = <&kp JP_MHEN>;
+            bindings = <&kp INT5>;
         };
 
         jp_henk1 {
             key-positions = <28 30>;
-            bindings = <&kp JP_HENK>;
+            bindings = <&kp INT4>;
         };
 
         jp_henk2 {
             key-positions = <29 31>;
-            bindings = <&kp JP_HENK>;
+            bindings = <&kp INT4>;
         };
 
         sk_shift {
@@ -285,45 +245,45 @@
 
         layer_base {
             bindings = <
-                            &macro_y_u      &kp U         &kp MINUS       &mt LSHIFT JP_QMARK               &mt LALT JP_LBKT     &kp W           &kp N       &kp M       
-&kp LEFT    &kp E           &kp I         &kp A           &kp O           &mt LCTRL COMMA                   &mt LGUI JP_RBKT     &kp K           &kp T       &kp S       &kp R       &kp RIGHT       
-            &macro_y_e      &macro_n_n    &macro_y_a      &macro_y_o                                                             &kp H           &kp Y       &kp P       &kp F       
-                                                          &lt 1 BSPC      &lt 3 RET                         &lt 3 TAB            &lt 2 SPACE 
+                            &macro_y_u    &kp U          &kp MINUS       &mt LSHIFT QMARK               &mt LALT RBKT     &kp W           &kp N       &kp M       
+&kp LEFT    &kp E           &kp I         &kp A          &kp O           &mt LCTRL COMMA                &mt LGUI NUHS     &kp K           &kp T       &kp S       &kp R       &kp RIGHT       
+            &macro_y_e      &macro_n_n    &macro_y_a     &macro_y_o                                                       &kp H           &kp Y       &kp P       &kp F       
+                                                         &lt 1 BSPC      &lt 3 RET                      &lt 3 TAB         &lt 2 SPACE 
             >;
         };
 
         layer_voiced1 {
             bindings = <
-                              &macro_x_y_u      &macro_x_u        &kp JP_TILDE    &mt LSHIFT JP_EXCL       &mt LALT JP_LPAR    &kp Q       &macro_n_n    &kp J      
-&kp LEFT    &macro_x_e        &macro_x_i        &macro_x_a        &macro_x_o      &mt LCTRL DOT            &mt LGUI JP_RPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
-            &kp HOME          &kp END           &macro_x_y_a      &macro_x_y_o                                                 &kp B       &kp X         &kp C     &kp V    
-                                                                 &none           &none                     &tog 5              &tog 4 
+                              &macro_x_y_u      &macro_x_u        &kp PLUS       &mt LSHIFT EXCL       &mt LALT STAR    &kp Q       &macro_n_n    &kp J      
+&kp LEFT    &macro_x_e        &macro_x_i        &macro_x_a        &macro_x_o     &mt LCTRL DOT         &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
+            &kp HOME          &kp END           &macro_x_y_a      &macro_x_y_o                                          &kp B       &kp X         &kp C     &kp V    
+                                                                  &none          &none                 tog 5            &tog 4 
             >;
         };
 
         layer_voiced2 {
             bindings = <
-                            &macro_x_y_u      &macro_x_u        &kp JP_TILDE    &mt LSHIFT JP_EXCL        &mt LALT JP_LPAR    &kp Q       &macro_n_n    &kp J      
-&kp LEFT    &macro_x_e      &macro_x_i        &macro_x_a        &macro_x_o      &mt LCTRL DOT             &mt LGUI JP_RPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
-            &kp HOME        &kp END           &macro_x_y_a      &macro_x_y_o                                                  &kp B       &kp X         &kp C     &kp V    
-                                              &tog 4            &tog 5                                    &none               &none 
+                            &macro_x_y_u      &macro_x_u        &kp PLUS       &mt LSHIFT EXCL        &mt LALT STAR    &kp Q       &macro_n_n    &kp J      
+&kp LEFT    &macro_x_e      &macro_x_i        &macro_x_a        &macro_x_o     &mt LCTRL DOT          &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
+            &kp HOME        &kp END           &macro_x_y_a      &macro_x_y_o                                           &kp B       &kp X         &kp C     &kp V    
+                                              &tog 4            &tog 5                                &none            &none 
             >;
         };
 
         layer_num {
             bindings = <
-                         &kp JP_ASTRK  &kp JP_AMPS   &kp JP_CARET  &mt LSHIFT JP_PLUS        &mt LALT COMMA    &kp N1      &kp N2      &kp N3    
-&kp LEFT    &kp JP_DQT   &kp JP_SQT    &kp JP_UNDER  &kp JP_AT     &mt LCTRL MINUS           &mt LGUI DOT      &kp N4      &kp N5      &kp N6   &kp N0    &kp RIGHT  
-            &kp JP_LT    &kp JP_RT     &kp JP_PRCNT  &kp JP_EQUAL                                              &kp N7      &kp N8      &kp N9   &kp FSLH 
-                                                     &kp JP_YEN    &none                     &none             &kp JP_YEN       
+                     &kp DQT    &kp CARET     &kp EQUAL    &mt LSHIFT COLON        &mt LALT COMMA    &kp N1      &kp N2      &kp N3    
+&kp LEFT    &kp AT   &kp AMPS   &kp LS(INT1)  &kp LBKT     &mt LCTRL MINUS         &mt LGUI DOT      &kp N4      &kp N5      &kp N6   &kp N0    &kp RIGHT  
+            &kp LT   &kp GT     &kp PRCNT     &kp UNDER                                              &kp N7      &kp N8      &kp N9   &kp FSLH 
+                                              &kp INT3     &none                   &none             &kp INT3       
             >;
         };
 
         layer_signs {
             bindings = <
-                           &kp C_VOL_DN    &kp UP      &kp C_VOL_UP    &kp PG_UP          &kp LBRC     &kp JP_BSLH   &kp JP_PIPE &kp JP_GRAVE       
-&tog 4      &kp PSCRN      &kp LEFT        &kp DOWN    &kp RIGHT       &kp PG_DN          &kp RBRC     &kp JP_HASH   &kp JP_DLLR &kp JP_COLON   &kp SEMI     &tog 4
-            &kp CAPS       &kp HOME        &kp LGUI    &kp END                                         &kp LC(Z)     &kp LC(X)   &kp LC(C)      &kp LC(V)       
+                           &kp C_VOL_DN    &kp UP      &kp C_VOL_UP    &kp PG_UP          &kp RBRC     &kp INT1   &kp LS(INT3) &kp LBRC       
+&tog 4      &kp PSCRN      &kp LEFT        &kp DOWN    &kp RIGHT       &kp PG_DN          &kp TILDE2   &kp HASH   &kp DLLR     &kp SQT      &kp SEMI     &tog 4
+            &kp CAPS       &kp HOME        &kp LGUI    &kp END                                         &kp LC(Z)  &kp LC(X)    &kp LC(C)    &kp LC(V)       
                                                        &kp BSPC        &kp RT             &kp TAB      &kp SPACE 
             >;
         };
@@ -331,7 +291,7 @@
         layer_qwerty {
             bindings = <
                   &kp W    &kp E    &kp R      &kp T                   &kp Y              &kp U    &kp I       &kp O      
-&kp Q   &kp A     &kp S    &kp D    &kp F      &kp G                   &kp H              &kp J    &kp K       &kp L     &kp P     &kp BSPC 
+&kp Q   &kp A     &kp S    &kp D    &kp F      &kp G                   &kp H              &kp J    &kp K       &kp L     &kp P      &kp BSPC 
         &kp Z     &kp X    &kp C    &kp V                                                 &kp M    &kp COMMA   &kp DOT   &lt 6 RET    
                                     &kp B      &mt LCTRL TAB           &mt LSHIFT SPACE   &kp N 
             >;
