@@ -283,7 +283,7 @@
                            &kp C_VOL_DN    &kp UP      &kp C_VOL_UP    &kp PG_UP          &kp RBRC     &kp INT1   &kp LS(INT3) &kp LBRC       
 &tog 4      &kp PSCRN      &kp LEFT        &kp DOWN    &kp RIGHT       &kp PG_DN          &kp TILDE2   &kp HASH   &kp DLLR     &kp SQT      &kp SEMI     &tog 4
             &kp CAPS       &kp HOME        &kp LGUI    &kp END                                         &kp LC(Z)  &kp LC(X)    &kp LC(C)    &kp LC(V)       
-                                                       &kp BSPC        &kp RT             &kp TAB      &kp SPACE 
+                                                       &kp BSPC        &kp RET             &kp TAB      &kp SPACE 
             >;
         };
 
