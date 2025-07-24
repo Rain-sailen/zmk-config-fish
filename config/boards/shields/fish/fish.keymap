@@ -256,7 +256,7 @@
                               &macro_x_y_u      &macro_x_u        &kp PLUS       &mt LSHIFT EXCL       &mt LALT STAR    &kp Q       &macro_n_n    &kp J      
 &kp LEFT    &macro_x_e        &macro_x_i        &macro_x_a        &macro_x_o     &mt LCTRL DOT         &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
             &kp HOME          &kp END           &macro_x_y_a      &macro_x_y_o                                          &kp B       &kp X         &kp C     &kp V    
-                                                                  &none          &none                 tog 5            &tog 4 
+                                                                  &none          &none                 &tog 5            &tog 4 
             >;
         };
 
