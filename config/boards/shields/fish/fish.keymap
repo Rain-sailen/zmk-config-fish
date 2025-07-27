@@ -247,7 +247,7 @@
                             &y_u    &kp U          &kp MINUS       &mt LSHIFT QMARK               &mt LALT RBKT     &kp W           &kp N       &kp M       
 &kp LEFT    &kp E           &kp I         &kp A          &kp O           &mt LCTRL COMMA                &mt LGUI NUHS     &kp K           &kp T       &kp S       &kp R       &kp RIGHT       
             &y_e      &n_n    &y_a     &y_o                                                       &kp H           &kp Y       &kp P       &kp F       
-                                                         &lt 1 BSPC      &lt 3 RET                      &lt 3 TAB         &lt 2 SPACE 
+                                                         &lt 1 RET      &lt 3 BSPC                      &lt 3 TAB         &lt 2 SPACE 
             >;
         };
 
@@ -283,7 +283,7 @@
                            &kp C_VOL_DN    &kp UP      &kp C_VOL_UP    &kp PG_UP          &kp RBRC     &kp INT1   &kp LS(INT3) &kp LBRC       
 &tog 4      &kp PSCRN      &kp LEFT        &kp DOWN    &kp RIGHT       &kp PG_DN          &kp TILDE2   &kp HASH   &kp DLLR     &kp SQT      &kp SEMI     &tog 4
             &kp CAPS       &kp HOME        &kp LGUI    &kp END                                         &kp LC(Z)  &kp LC(X)    &kp LC(C)    &kp LC(V)       
-                                                       &kp BSPC        &kp RET             &kp TAB      &kp SPACE 
+                                                       &kp RET        &kp BSPC             &kp TAB      &kp SPACE 
             >;
         };
 
