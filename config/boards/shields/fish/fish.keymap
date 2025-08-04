@@ -256,7 +256,7 @@
                               &y_u    &kp U        &kp PLUS       &mt LSHIFT EXCL       &mt LALT STAR    &kp Q       &n_n    &kp J      
 &kp LEFT    &kp E           &kp I         &kp A          &kp O      &mt LCTRL DOT         &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
             &y_e      &n_n    &y_a     &y_o                                         &kp B       &kp X         &kp C     &kp V    
-                                                                  &none          &none                 &tog 5            &tog 4 
+                                                            &tog 4            &tog 5                     &none          &none                 
             >;
         };
 
@@ -265,7 +265,7 @@
                             &x_y_u      &x_u        &kp PLUS       &mt LSHIFT EXCL        &mt LALT STAR    &kp Q       &n_n    &kp J      
 &kp LEFT    &x_e      &x_i        &x_a        &x_o     &mt LCTRL DOT          &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
             &kp HOME        &kp END           &x_y_a      &x_y_o                                           &kp B       &kp X         &kp C     &kp V    
-                                              &tog 4            &tog 5                                &none            &none 
+                                                       &none            &none                   &tog 5            &tog 4 
             >;
         };
 
