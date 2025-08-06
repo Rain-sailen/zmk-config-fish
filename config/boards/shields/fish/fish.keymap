@@ -214,22 +214,22 @@
         };
 
         sk_shift {
-            key-positions = <12 15>;
+            key-positions = <23 24>;
             bindings = <&sk LSHIFT>;
         };
 
         sk_ctrl {
-            key-positions = <11 16>;
+            key-positions = <22 25>;
             bindings = <&sk LCTRL>;
         };
 
         sk_alt {
-            key-positions = <10 17>;
+            key-positions = <21 26>;
             bindings = <&sk LALT>;
         };
 
         sk_gui {
-            key-positions = <9 18>;
+            key-positions = <20 27>;
             bindings = <&sk LGUI>;
         };
     };
