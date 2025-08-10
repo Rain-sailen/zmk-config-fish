@@ -244,9 +244,9 @@
 
         layer_base {
             bindings = <
-                            &y_u    &kp U          &kp MINUS       &mt LSHIFT QMARK               &mt LALT RBKT     &kp W           &kp N       &kp M       
+                            &y_u    &kp U          &kp MINUS       &mt LSHIFT QMARK               &mt LALT RBKT     &kp  Y          &kp N       &kp M       
 &kp LEFT    &kp E           &kp I         &kp A          &kp O           &mt LCTRL COMMA                &mt LGUI NUHS     &kp K           &kp T       &kp S       &kp R       &kp RIGHT       
-            &y_e      &n_n    &y_a     &y_o                                                       &kp H           &kp Y       &kp P       &kp F       
+            &y_e      &n_n    &y_a     &y_o                                                       &kp H           &kp W       &kp P       &kp F       
                                                          &lt 2 RET      &lt 3 BSPC                      &lt 3 TAB         &lt 1 SPACE 
             >;
         };
