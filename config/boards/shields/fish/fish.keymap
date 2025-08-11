@@ -243,8 +243,9 @@
 
         combo_you {
             key-positions = <23 1>;
-            bindings = <&y_o_u>
-            layers = <0>
+            bindings = <&y_o_u>;
+            layers = <0>;
+        };
     };
     
 
