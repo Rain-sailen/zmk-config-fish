@@ -62,6 +62,14 @@
                 = <&macro_tap &kp Y &kp O &kp U>
                 ;
             };
+
+        z_y_o_u: y_o_u {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp Z &kp Y &kp O &kp U>
+                ;
+            };
       
         y_u: y_u {
             compatible = "zmk,behavior-macro";
@@ -246,6 +254,13 @@
             bindings = <&y_o_u>;
             layers = <0>;
         };
+
+        combo_zyou {
+            key-positions = <18 23 1>;
+            bindings = <&z_y_o_u>;
+            layers = <1>;
+        };
+
     };
     
 
