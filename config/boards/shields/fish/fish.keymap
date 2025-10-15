@@ -251,9 +251,9 @@
         };
 
         combo_zyou {
-            key-positions = <18 23 1>;
+            key-positions = <31 17 23 1>;
             bindings = <&z_y_o_u>;
-            layers = <1>;
+            layers = <0>;
         };
   
          combo_you {
