@@ -283,7 +283,7 @@
         layer_voiced {
             bindings = <
                               &y_u    &kp U        &kp E       &mt LSHIFT EXCL       &mt LALT STAR    &kp Q       &n_n    &kp J      
-&kp LEFT    &kp PLUS           &kp I         &kp A          &kp O      &mt LCTRL DOT         &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
+&kp LEFT    &kp MINUS &kp I         &kp A          &kp O      &mt LCTRL DOT         &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
             &y_e      &n_n    &y_a     &y_o                                         &kp B       &kp X         &kp C     &kp V    
                                                             &tog 4            &tog 5                     &none          &none                 
             >;
