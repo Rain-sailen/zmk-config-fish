@@ -273,8 +273,8 @@
 
         layer_base {
             bindings = <
-                            &y_u    &kp U          &kp MINUS       &mt LSHIFT QMARK               &mt LALT RBKT     &kp  Y          &kp N       &kp M       
-&kp LEFT    &kp E           &kp I         &kp A          &kp O           &mt LCTRL COMMA                &mt LGUI NUHS     &kp K           &kp T       &kp S       &kp R       &kp RIGHT       
+                            &y_u    &kp U          &kp E      &mt LSHIFT QMARK               &mt LALT RBKT     &kp  Y          &kp N       &kp M       
+&kp LEFT    &kp MINUS           &kp I         &kp A          &kp O           &mt LCTRL COMMA                &mt LGUI NUHS     &kp K           &kp T       &kp S       &kp R       &kp RIGHT       
             &y_e      &n_n    &y_a     &y_o                                                       &kp H           &kp W       &kp P       &kp F       
                                                          &lt 2 RET      &lt 3 BSPC                      &lt 3 TAB         &lt 1 SPACE 
             >;
@@ -282,8 +282,8 @@
 
         layer_voiced {
             bindings = <
-                              &y_u    &kp U        &kp PLUS       &mt LSHIFT EXCL       &mt LALT STAR    &kp Q       &n_n    &kp J      
-&kp LEFT    &kp E           &kp I         &kp A          &kp O      &mt LCTRL DOT         &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
+                              &y_u    &kp U        &kp E       &mt LSHIFT EXCL       &mt LALT STAR    &kp Q       &n_n    &kp J      
+&kp LEFT    &kp PLUS           &kp I         &kp A          &kp O      &mt LCTRL DOT         &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
             &y_e      &n_n    &y_a     &y_o                                         &kp B       &kp X         &kp C     &kp V    
                                                             &tog 4            &tog 5                     &none          &none                 
             >;
@@ -291,8 +291,8 @@
 
         layer_palat {
             bindings = <
-                            &x_y_u      &x_u        &kp PLUS       &mt LSHIFT EXCL        &mt LALT STAR    &kp Q       &n_n    &kp J      
-&kp LEFT    &x_e      &x_i        &x_a        &x_o     &mt LCTRL DOT          &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
+                            &x_y_u      &x_u        &x_e       &mt LSHIFT EXCL        &mt LALT STAR    &kp Q       &n_n    &kp J      
+&kp LEFT    &kp PLUS &x_i        &x_a        &x_o     &mt LCTRL DOT          &mt LGUI LPAR    &kp G       &kp D         &kp Z     &kp L    &kp RIGHT
             &kp HOME        &kp END           &x_y_a      &x_y_o                                           &kp B       &kp X         &kp C     &kp V    
                                                        &none            &none                   &tog 5            &tog 4 
             >;
