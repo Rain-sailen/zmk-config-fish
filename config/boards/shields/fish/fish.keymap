@@ -315,23 +315,5 @@
                                                        &kp RET        &kp BSPC             &kp TAB      &kp SPACE 
             >;
         };
-
-        layer_qwerty {
-            bindings = <
-                  &kp W    &kp E    &kp R      &kp T                   &kp Y              &kp U    &kp I       &kp O      
-&kp Q   &kp A     &kp S    &kp D    &kp F      &kp G                   &kp H              &kp J    &kp K       &kp L     &kp P      &kp BSPC 
-        &kp Z     &kp X    &kp C    &kp V                                                 &kp M    &kp COMMA   &kp DOT   &lt 6 RET    
-                                    &kp B      &mt LCTRL TAB           &mt LSHIFT SPACE   &kp N 
-            >;
-        };
-
-        layer_qwerty2 {
-            bindings = <
-                 &none    &none    &none    &none              &none     &none    &none   &none      
-&none   &none    &none    &none    &none    &none              &none     &none    &none   &none   &none   &tog 5 
-        &none    &none    &none    &none                                 &none    &none   &none   &none    
-                                   &none    &none              &none     &none 
-            >;
-        };
     };
 };
